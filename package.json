@@ -1,0 +1,29 @@
+{
+  "name": "mix-serve",
+  "version": "1.0.0",
+  "description": "Laravel Mix extension to serve static files",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalie/mix-serve.git"
+  },
+  "keywords": [
+    "laravel",
+    "mix",
+    "zeit",
+    "serve",
+    "static"
+  ],
+  "author": "Shmavon Gazanchyan <sgazanchyan@deloitte.ie>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitalie/mix-serve/issues"
+  },
+  "homepage": "https://github.com/digitalie/mix-serve#readme",
+  "dependencies": {
+    "serve-handler": "^2.4.0"
+  }
+}
