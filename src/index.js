@@ -16,9 +16,9 @@ class Serve {
      *
      * @param {Number} port
      * @param {String} host
-     * @param {String} pablicDir
+     * @param {String} publicDir
      */
-    register(port = 3000, host = 'localhost', pablicDir = '.') {
+    register(port = 3000, host = 'localhost', publicDir = '.') {
         this.port = port;
         this.host = host;
         this.publicDir = publicDir;
